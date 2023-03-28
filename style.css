@@ -1,0 +1,53 @@
+body{
+    background-color:white;
+}
+
+h1{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-size:8rem;
+    text-shadow:7px 0px cornflowerblue;
+    }
+
+footer{
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-weight:bold;
+text-align: center;
+color: cornflowerblue;
+}
+
+
+.drumKit
+{
+margin:10%;
+text-align: center;
+}
+
+  .w {background-image: url("images/tom1.png");}
+  .a {background-image: url("images/tom2.png");}
+  .s {background-image: url("images/tom3.png");}
+  .d {background-image: url("images/tom4.png");}
+  .j {background-image: url("images/snare.png");}
+  .k {background-image: url("images/crash.png");}
+  .l {background-image: url("images/kick.png");}
+
+.button
+{ outline:none;
+  border: 15px solid black;
+  font-size: 4rem;
+  font-family:Arial, Helvetica, sans-serif;
+  line-height:3rem;
+  font-weight: 1000;
+  color:cornflowerblue;
+  border-radius: 50px;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  margin: 2px;
+  background-color:white;
+}
+
+.pressed{
+  box-shadow:0 3px 4px 0 black;
+  opacity:1.5;
+}
